@@ -110,3 +110,16 @@ All-in-all this turned a couple of minutes exercise to craft HTTP requests into 
 - Download [FFDec](https://www.free-decompiler.com/flash/download/)
 - Open the 'Main.decrypted.swf' inside of FFDec
 - Request signature generation is inside of 'scripts/de/innogames/shared/networking/providers/JSONConnectionProvider'
+
+
+
+### Docker instructions
+
+If you have `docker` installed, then just run following command, and all the variables will be fetched automaticlly:
+
+```bash
+docker run --rm glavich/foe-decryption
+```
+
+Output example:
+![3](https://user-images.githubusercontent.com/2729571/35874543-081d6c02-0b6d-11e8-8534-26a2ff31a1d3.png)
